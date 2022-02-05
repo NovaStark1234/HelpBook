@@ -1,0 +1,15 @@
+name: HelpBook
+api: [4.0.0]
+authors: ["ClickedTran", "NovaStark1245"]
+main: Nova\HelpBook\Main
+version: 1.0.0
+
+commands:
+  helpbook:
+    description: Get the Guidebook
+    permission: helpbook.command.use
+    
+permissions:
+  helpbook.command.use:
+    description: Helpbook command permission
+    default: true
