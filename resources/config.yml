@@ -1,5 +1,10 @@
+#Below is title of the book
 BookTitle: "Title"
+
+#Below is author of the book
 BookAuthor: "Author"
+
+#Below is text of the book, you can use '{line}' to make new line
 BookText:
   - "Text 1 line 1{line}Text 1 line 2"
   - "Text 2 line 1{line}Text 2 line 2"
