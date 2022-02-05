@@ -31,7 +31,7 @@ class Main extends PluginBase implements Listener {
                     $item = VanillaItems::WRITTEN_BOOK();
                     $item->setTitle($this->cfg->get("BookTitle"));
                     $item->setAuthor($this->cfg->get("BookAuthor"));
-                    $player->getInventory()->addItem($this->setText($item, $sender));
+                    $sender->getInventory()->addItem($this->setText($item, $sender));
                 break;
             }
         }
